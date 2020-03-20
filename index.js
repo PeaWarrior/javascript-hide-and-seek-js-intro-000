@@ -4,7 +4,10 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  return document.getElementById('nested').querySelectorAll('div.target')
+  const nestedDivs = document.getElementById('nested').querySelectorAll('div')
+  for (let i = 0; i < nestedDivs.length; i++) {
+    if (nestedDivs[i] === )
+  }
 }
 
 function increaseRankBy(n) {
