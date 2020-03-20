@@ -21,7 +21,7 @@ function deepestChild() {
       current = current.querySelector('div')
     }
     else {
-      return current.innerHTML
+      return current
     }
   }
 }
