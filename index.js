@@ -6,7 +6,7 @@ function getFirstSelector(selector) {
 function nestedTarget() {
   const nestedDivs = document.getElementById('nested').querySelectorAll('div')
   for (let i = 0; i < nestedDivs.length; i++) {
-    return nesterDivs[i]
+    return nestedDivs[i]
   }
 }
 
