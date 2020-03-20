@@ -24,9 +24,4 @@ function deepestChild() {
       return current.innerHTML
     }
   }
-
-  for (let i = 0; i < current.length; i++){
-
-  }
-
 }
